@@ -5,7 +5,7 @@ import './index.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Register from './components/auth/Register.jsx';
 import toast, { Toaster } from 'react-hot-toast';
-import VerifyPhone from './components/auth/verifyPhone.jsx';
+import VerifyPhone from './components/auth/VerifyPhone.jsx';
 import Dashboard from './components/dashboard/Dashboard.jsx';
 import { UserProvider } from './context/UserContext.jsx';
 
