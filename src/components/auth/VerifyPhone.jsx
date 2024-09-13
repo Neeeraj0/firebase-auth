@@ -78,7 +78,7 @@ const VerifyPhone = () => {
 
       
         try {
-          const response = await fetch('http://35.154.208.29:3000/api/technicians/register', {
+          const response = await fetch('/api/technicians/register', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
